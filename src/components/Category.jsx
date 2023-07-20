@@ -9,7 +9,7 @@ const Category = ({result}) => {
         <a href="#" className='flex flex-col justify-center'>
             <img className=" h-64 p-8 rounded-t-lg object-contain" src={result.imageUrl} alt="product image" />
             {/* <div > */}
-                <h5 className="align-baseline text-xl bg-gray-300 hover:bg-main font-semibold tracking-tight text-gray-900 hover:text-white h-16 text-center p-2.5">{result.name}</h5>
+                <h5 className="align-baseline text-xl bg-gray-300 hover:bg-main font-semibold tracking-tight text-gray-900 hover:text-white h-20 text-center p-2.5">{result.name}</h5>
             {/* </div> */}
             
         </a>
